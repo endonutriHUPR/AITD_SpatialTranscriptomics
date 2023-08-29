@@ -8,7 +8,7 @@ Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's t
 
 ## Quality control and analysis
 
-We can mainly summarize the bioinformatic protocol in ____ steps:
+We can mainly summarize the bioinformatic protocol in four steps:
 
 ### 1) Sequencing quality control
 
