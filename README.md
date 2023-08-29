@@ -1,6 +1,6 @@
 # Autoimmune Thyroid Diseases with Spatial Transcriptomics
 
-This repository host the code used in our paper titled "Epithelial and stromal landscape heterogeneity at spatial resolution in autoimmune thyroid diseases ". 
+This repository host the code used in our paper titled "Epithelial and stromal landscape heterogeneity at spatial resolution in autoimmune thyroid diseases". 
 
 ## Abstract
 
@@ -16,7 +16,7 @@ _QC_seq_ST.R_ we overlooked the quality of the sequencing per sample. We got as 
 
 ### 2) Spatial quality control
 
-Spots-based sequencing allows as to evaluate their quality in a spatial context. As an example, we can observe lower % of ribosome in TFCs areas compared to immune infiltration. _QC_spatial_ST.R_ was ued for that aim.
+Spots-based sequencing allows as to evaluate their quality in a spatial context. As an example, we can observe lower % of ribosome in TFCs areas compared to immune infiltration. _QC_spatial_ST.R_ was used for that aim.
 
 ### 3) Samples integration, clustering, differential expression (DE) analysis and enrichment analysis
 
