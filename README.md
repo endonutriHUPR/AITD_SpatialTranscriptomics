@@ -6,6 +6,8 @@ This repository host the code used in our paper titled "Unraveling the molecular
 
 Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's thyroiditis (HT) are organ-specific diseases that involve complex interactions between distinct components of the thyroid ecosystem. We applied spatial transcriptomics (ST) to explore the molecular architecture, heterogeneity and location of different cells present in the thyroid tissue, including thyroid follicular cells (TFCs), stromal cells such as fibroblasts, endothelial cells, and thyroid infiltrating lymphocytes. We identified damaged antigen-presenting TFCs that had an upregulated CD74/MIF axis in thyroids from AITD patients. Furthermore, we discerned two main fibroblast subpopulations in the connective tissue including ADIRF+ myofibroblasts, mainly upregulated in GD, and inflammatory-associated fibroblasts (IAFs), mainly overexpressed in HT patients. We also demonstrated an increase of fenestrated PLVAP+ vessels in AITD, especially in GD. Our data unveil novel stromal and thyroid epithelial cell subpopulations that could play an essential role in the pathogenesis of AITD.
 
+![Graphical abstract SHORT](https://github.com/endonutriHUPR/AITD_SpatialTranscriptomics/assets/114569590/b0dd194a-2250-4524-9c07-f83096a7387b)
+
 ## Quality control and analysis
 
 We can mainly summarize the bioinformatic protocol in four steps:
