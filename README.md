@@ -24,9 +24,12 @@ We used the code available in the R script _integration_of_samples_and_analysis.
 
 ### 4) Re-clustering
 
-As developed in _reclustering.R_ , we firstly isolated the interesting cluster to 1) separate samples, normalize, dimmensional reduced them and 2) merge, scale and re-integrate them. Finally; UMAP, re-clustering and DE and enrichment analysis were performed.
+As developed in _reclustering.R_ , we firstly isolated the interesting cluster to 1) separate samples, normalize, dimmensional reduced them and 2) merge, scale and re-integrate them. Finally; UMAP, re-clustering and DE and enrichment analysis were performed. 
 
 ## 5) Further analysis of Visium data
 ### Spots deconvolution
 
-We performed the deconvolution of the spots in HT Visium samples using HRA001684 repository.
+We performed the deconvolution of the spots in HT Visium samples using HRA001684 repository. To this aim, we chose cell2location package written in Python. Firstly, we transform R dataset to anndata using R package sceasy (_from_seurat_to_anndata_sceasy.R_). Then, we followed cell2location pipeline with our samples as in the script _cell2loc_st_ht.py_.
+
+### Interactome
+For ligand-receptor interaction we used the clusters we got in the analysis of our Visium data to run CellChat in its spatial data modality. All the steps are specified in _cellchat_spatial.R_ file.
