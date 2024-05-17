@@ -14,7 +14,7 @@ All this code was run in:
 R version 4.0.3 (2020-10-10)
 Platform: x86_64-conda-linux-gnu (64-bit)
 Running under: Ubuntu 20.04.6 LTS
-Seurat version 4.0.3
+Seurat version 4.0.3.
 
 We can mainly summarize the bioinformatic protocol in four steps:
 
