@@ -27,3 +27,6 @@ We used the code available in the R script _integration_of_samples_and_analysis.
 As developed in _reclustering.R_ , we firstly isolated the interesting cluster to 1) separate samples, normalize, dimmensional reduced them and 2) merge, scale and re-integrate them. Finally; UMAP, re-clustering and DE and enrichment analysis were performed.
 
 ## 5) Further analysis of Visium data
+### Spots deconvolution
+
+We performed the deconvolution of the spots in HT Visium samples using HRA001684 repository.
