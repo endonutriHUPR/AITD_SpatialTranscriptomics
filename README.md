@@ -10,6 +10,12 @@ Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's t
 
 ## Quality control and analysis
 
+All this code was run in:
+R version 4.0.3 (2020-10-10)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.6 LTS
+Seurat version 4.0.3
+
 We can mainly summarize the bioinformatic protocol in four steps:
 
 ### 1) Sequencing quality control
@@ -30,6 +36,8 @@ As developed in _reclustering.R_ , we firstly isolated the interesting cluster t
 
 ## 5) Further analysis of Visium data
 ### Spots deconvolution
+
+Regarding Python, version 3.9.18 was used. 
 
 We performed the deconvolution of the spots in HT Visium samples using HRA001684 repository. To this aim, we chose cell2location package written in Python. Firstly, we transform R dataset to anndata using R package sceasy (_from_seurat_to_anndata_sceasy.R_). Then, we followed cell2location pipeline with our samples as in the script _cell2loc_st_ht.py_.
 
