@@ -10,10 +10,10 @@ Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's t
 
 ## Quality control and analysis
 
-All this code was run in:
-R version 4.0.3 (2020-10-10)
-Platform: x86_64-conda-linux-gnu (64-bit)
-Running under: Ubuntu 20.04.6 LTS
+All this code was run in:<br>
+R version 4.0.3 (2020-10-10)<br>
+Platform: x86_64-conda-linux-gnu (64-bit)<br>
+Running under: Ubuntu 20.04.6 LTS<br>
 Seurat version 4.0.3.
 
 We can mainly summarize the bioinformatic protocol in four steps:
