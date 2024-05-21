@@ -8,7 +8,7 @@ Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's t
 
 ![Graphical abstract SHORT](https://github.com/endonutriHUPR/AITD_SpatialTranscriptomics/assets/114569590/b0dd194a-2250-4524-9c07-f83096a7387b)
 
-## Quality control and analysis
+## Code specifications
 
 All this code was run in:<br>
 R version 4.0.3 (2020-10-10)<br>
@@ -16,19 +16,23 @@ Platform: x86_64-conda-linux-gnu (64-bit)<br>
 Running under: Ubuntu 20.04.6 LTS<br>
 Seurat version 4.0.3.
 
+## Quality control and analysis
+
+Before the steps detailed below, we run SpaceRanger (10X Genomics software, version 1.2.2) with each sample.
+
 We can mainly summarize the bioinformatic protocol in four steps:
 
 ### 1) Sequencing quality control
 
-_QC_seq_ST.R_ we overlooked the quality of the sequencing per sample. We got as output some tables and graphs for a easier evaluation.
+_QC_seq_ST.R_ we overlooked the quality of the sequencing per sample. We got as output some tables and graphs for a easier evaluation, whereas as input the _metric_summary.csv_ (SpaceRanger output) was used.
 
 ### 2) Spatial quality control
 
-Spots-based sequencing allows as to evaluate their quality in a spatial context. As an example, we can observe lower % of ribosome in TFCs areas compared to immune infiltration. _QC_spatial_ST.R_ was used for that aim.
+Spots-based sequencing allows as to evaluate their quality in a spatial context. As an example, we can observe lower % of ribosome in TFCs areas compared to immune infiltration. _QC_spatial_ST.R_ was used for that aim with a _filtered_feature_bc_matrix.h5_ as input.
 
 ### 3) Samples integration, clustering, differential expression (DE) analysis and enrichment analysis
 
-We used the code available in the R script _integration_of_samples_and_analysis.R_.
+We used the code available in the R script _integration_of_samples_and_analysis.R_ to perform the analysis of the Visium samples. We loaded the results (and .rds file) returned after the second step per sample. 
 
 ### 4) Re-clustering
 
