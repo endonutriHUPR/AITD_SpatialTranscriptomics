@@ -2,6 +2,11 @@
 
 This repository host the code used in our paper titled "Unraveling the molecular architecture of autoimmune thyroid diseases at spatial resolution". 
 
+
+[![DOI](https://zenodo.org/badge/684554798.svg)](https://zenodo.org/doi/10.5281/zenodo.11551772)
+
+
+
 ## Abstract
 
 Autoimmune thyroid diseases (AITD) such as Graves' disease (GD) or Hashimoto's thyroiditis (HT) are organ-specific diseases that involve complex interactions between distinct components of the thyroid ecosystem. We applied spatial transcriptomics (ST) to explore the molecular architecture, heterogeneity and location of different cells present in the thyroid tissue, including thyroid follicular cells (TFCs), stromal cells such as fibroblasts, endothelial cells, and thyroid infiltrating lymphocytes. We identified damaged antigen-presenting TFCs that had an upregulated CD74/MIF axis in thyroids from AITD patients. Furthermore, we discerned two main fibroblast subpopulations in the connective tissue including ADIRF+ myofibroblasts, mainly upregulated in GD, and inflammatory-associated fibroblasts (IAFs), mainly overexpressed in HT patients. We also demonstrated an increase of fenestrated PLVAP+ vessels in AITD, especially in GD. Our data unveil novel stromal and thyroid epithelial cell subpopulations that could play an essential role in the pathogenesis of AITD.
