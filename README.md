@@ -2,7 +2,7 @@
 
 This repository host the code used in our paper titled "Unraveling the molecular architecture of autoimmune thyroid diseases at spatial resolution". 
 
-
+Also available in Zenodo:
 [![DOI](https://zenodo.org/badge/684554798.svg)](https://zenodo.org/doi/10.5281/zenodo.11551772)
 
 
